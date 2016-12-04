@@ -32,4 +32,3 @@ describe("todoController - defined", function() {
     expect(todoController).toBeDefined();
   });
 });
-

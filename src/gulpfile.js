@@ -14,6 +14,7 @@ var notify       = require('gulp-notify');
 var reporters    = require('jasmine-reporters');
 var sourcemaps   = require('gulp-sourcemaps');
 var removeCode   = require('gulp-remove-code');
+var Reporter = require('jasmine-terminal-reporter'); 
 
 // Paths
 var PATH_DEV   = '';
@@ -67,7 +68,7 @@ gulp.task('scripts', ['lint','test'], function() {
 gulp.task('test', function () {
   return gulp.src('spec/*.js')
     .pipe(jasmine({
-        reporter: new reporters.JUnitXmlReporter()
+        reporter: new Reporter()
     }))
     .on('error', notify.onError({
       title: 'Jasmine Test Failed',

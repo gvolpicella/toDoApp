@@ -53,7 +53,8 @@ gulp.task('lint', function() {
 gulp.task('scripts', ['lint','test'], function() {
   return gulp.src([ PATH_DEV + 'js/modules/todoList.js',
                     PATH_DEV + 'js/modules/todoController.js',
-                    PATH_DEV + 'js/modules/todoView.js'])
+                    PATH_DEV + 'js/modules/todoView.js',
+                    PATH_DEV + 'js/todoer.js'])
       .pipe(sourcemaps.init())
       .pipe(concat({ path: 'todoer.js', stat: { mode: 0666 }}))
       .pipe(gulp.dest( PATH_TESTS ))

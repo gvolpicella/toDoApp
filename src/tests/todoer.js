@@ -333,3 +333,10 @@ var todoView = (function() {
 	return { };
 
 })(); 
+/**
+* todoer
+* ---------------------------------------------
+*/
+(function(){
+	console.log("todo app started");
+})();

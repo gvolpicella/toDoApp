@@ -1,6 +1,6 @@
 # Front-end setup
 
-Currently using Gulp to build and minify front-end assets (SASS / JS), and JS linting. These are located in `dev/`
+Currently using Gulp to build and minify front-end assets (SASS / JS), and JS linting. These are located in `src/`
 
 ## Getting Started
 

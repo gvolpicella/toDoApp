@@ -1,0 +1,27 @@
+{
+  "name": "Todoer",
+  "version": "0.0.1",
+  "authors": [
+    "Giuseppe Volpicella"
+  ],
+  "description": "Todoer",
+  "license": "",
+  "homepage": "http://www.gvolpicella.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mocha": "~2.3.4",
+    "chai": "~3.4.2"
+  },
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Todoer"
+  ],
+  "private": true
+}

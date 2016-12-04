@@ -1,0 +1,61 @@
+/* vars */
+$colorBlue: #0071DC;
+
+/* custom resets */
+input[type="text"],
+input[type="date"] {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+input:focus,
+button:focus {
+	outline: none;
+}
+
+/* generic styles */
+button {
+	background-color: #87A700;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	color: white;
+	line-height: 1;
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	padding: 11px 20px;
+}
+button.checkboxed {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 50px;
+	color: white;
+	cursor: pointer;
+	height: 23px;
+	width: 23px;
+	float: left;
+    padding: 0;
+	i {
+		font-size: 13px;
+	    line-height: 1;
+	    margin-top: 0px;
+	    margin-left: 1px;
+	    display: block;
+	}
+}
+
+/* typography */
+body {
+	font-family: 'Work Sans', Arial, sans-serif;
+}
+strong {
+	font-weight: 500;
+}
+
+#todoer {
+	header {
+		background-color: $colorBlue;
+	}
+	main {
+		padding-top: 60px;
+	}
+}

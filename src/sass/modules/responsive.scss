@@ -1,0 +1,92 @@
+/* Responsive */
+@media screen and (max-width: 960px) {
+	.container {
+		max-width: 100%;
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	#todoer {
+		main {
+			padding-top: 40px;
+		}
+	}
+	header {
+		text-align: center;
+	}
+	#todoer-add-text {
+	    width: 300px;
+	}
+	#todoer-list {
+		.todo-text {
+			width: 60%;
+  			white-space: nowrap;
+  			overflow: hidden;
+  			text-overflow: ellipsis;
+		}
+	}
+}
+@media screen and (max-width: 678px) {
+	button {
+		font-size: 15px;
+	}
+	#todoer-add-text {
+	    width: 100%;
+	    font-size: 20px;
+	    text-align: center;
+	}
+	#todoer-add.active {
+	    height: 120px;
+	    #todoer-add-text {
+		    clear:both;
+		    padding: 15px;
+		    text-align: left;
+		}
+		#todoer-add-date {
+		    display: block;
+		    margin-top: 20px;
+		    float: left;
+		    margin-left: 15px;
+		}
+		#todoer-add-submit {
+		    float: right;
+		    margin-top: 11px;
+		    margin-right: 15px;
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	.container {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	#todoer {
+		main {
+			padding-top: 20px;
+		}
+	}
+
+	#todoer-list {
+		li {
+			height: 80px;
+		}
+		.todo-text {
+			width: 310px;
+		}
+		.todo-date {
+		    /* float: right; */
+		    float: none;
+		    clear: both;
+		    margin-top: 14px;
+		    margin-left: 4px;
+		}
+	}
+
+}
+@media screen and (max-width: 339px) {
+	#todoer-list {
+		.todo-text {
+			width: 260px;
+		}
+	}
+}

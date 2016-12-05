@@ -18,7 +18,7 @@
 	}
 	#todoer-list {
 		.todo-text {
-			width: 60%;
+			width: 50%;
   			white-space: nowrap;
   			overflow: hidden;
   			text-overflow: ellipsis;
@@ -83,7 +83,7 @@
 	}
 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
 	#todoer-list {
 		.todo-text {
 			width: 260px;
